@@ -22,7 +22,7 @@ app.use(
 
 app.use(cors());
 routes.loadRoutes(app);
-var httpServer = http.createServer(app);
+var httpServer = https.createServer(app);
 
 httpServer.listen(port);
 
