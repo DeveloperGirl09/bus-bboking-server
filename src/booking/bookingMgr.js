@@ -87,7 +87,7 @@ exports.sendInvoice = function(req, res) {
     });
     var mailOptions = {
       from: "developergirl09@gmail.com",
-      to: "vikasininithi@gmail.com",
+      to: "vikasininithi@gmail.com", // customer email id
       subject: "Bookings",
       attachments: [
         {
